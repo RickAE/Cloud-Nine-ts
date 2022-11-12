@@ -120,7 +120,15 @@ body {
     position: absolute;
     right: 0px;
     color: #fff;
-    font-size: xx-large;
+    font-size: 5em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inter_box_banner p {
+    margin-left: 170px;
 }
 
 /* =============================================================================================================== */
@@ -148,15 +156,35 @@ body {
 
 .aprendizado_logo {
     font-size: 5em;
+    transition: 0.3s all;
 }
 
 .aprendizado_titulo {
     font-size: 2.5em;
+    transition: 0.3s all;
+
 }
 
 .aprendizado_descricao {
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-weight: 500;
+    width: 290px;
+    transition: 0.3s all;
+}
+
+.aprendizado_logo:hover {
+    font-size: 5.5em;
+    cursor: pointer;
+}
+
+.aprendizado_titulo:hover {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.aprendizado_descricao:hover {
+    font-size: 1.7em;
+    cursor: pointer;
 }
 
 /* =============================================================================================================== */
@@ -168,6 +196,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 80px 40px;
+    flex-wrap: wrap;
 }
 
 .box_ferramentas {
@@ -213,7 +242,7 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     position: absolute;
-    bottom: 20px;
+    bottom: 90px;
 }
 
 .box_ferramentas button:hover {
@@ -321,7 +350,7 @@ footer {
 
 .box_cursos {
     width: 25%;
-    border: 1px solid #FF6C0C;
+    /* border: 1px solid #FF6C0C; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,7 +362,30 @@ footer {
     width: 200px;
 }
 
+.wrapper_alunos {
+    display: flex;
+}
+
 .alunos_img {
     background-image: url(../img/alunos_bg.jpg);
 }
 
+.box_aluno {
+    background-color: #001E60;
+    width: 33%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.fala_aluno {
+    width: 240px;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.icon_aluno {
+    width: 340px;
+}
