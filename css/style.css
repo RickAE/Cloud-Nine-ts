@@ -263,3 +263,45 @@ footer {
     left: 50px;
 }
 
+/* =============================================================================================================== */
+
+/* Conf cloud9 */
+
+/* Conf banner school */
+.banner_school {
+    background: url(../img/school_banner.jpg);
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.banner_school div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_school div h1{
+    color: #fff;
+    filter: opacity(200%);
+    font-size: 5em;
+}
+
+/* =============================================================================================================== */
+
+/* Sobre School */
+
+.wrapper_sobre_school {
+    width: 60vw;
+    margin: 0px auto;
+    padding: 80px 0px 190px 0px;
+}
+
+.wrapper_sobre_school h1 {
+    color: #FF6C0C;
+    margin: 20px 0px;
+}
+
+.paragrafo_school {
+    margin-bottom: 20px;
+}
