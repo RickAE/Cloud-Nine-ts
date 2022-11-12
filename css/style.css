@@ -1,0 +1,265 @@
+/* Paleta de cores */
+/* #001E60 -> Azul escuro */
+/* #FF6C0C -> Laranja */
+/* Degrade de azul */
+/* #015CB8 */
+/* #1A6DBF */
+/* #337DC6 */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Configurações Gerais dos site */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* =============================================================================================================== */
+
+/* Configurações container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* =============================================================================================================== */
+
+/* Configuração do Header */
+
+/* Configurações Pre Label */
+.pre_label {
+    background-color: #001E60;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+}
+
+.wrapper_pre_label_icon {
+    margin-right: 20px;
+}
+
+.pre_label_icon {
+    color: #FF6C0C;
+}
+
+.wrapper_pre_label_icon a {
+    color: #fff;
+    font-weight: 540;
+}
+
+/* =============================================================================================================== */
+
+/* Configurações menu principal */
+
+.wrapper_menu_principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 14px;
+}
+
+.wrapper_logo a {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #FF6C0C;
+    font-size: 3.5em;
+    margin-right: 10px;
+}
+
+.wrapper_logo p {
+    color: #001E60;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.menu_principal li {
+    float: left;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.menu_principal li a {
+    color: #001E60;
+    font-weight: 500;
+}
+
+/* =============================================================================================================== */
+
+/* Conf Banner */
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+}
+
+.inter_box_banner {
+    background-color: #FF6C0C;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    font-size: xx-large;
+}
+
+/* =============================================================================================================== */
+
+/* Conf Aprendizado */
+
+.wrapper_aprendizado {
+    width: 90vw;
+    height: 50vh;
+    margin: 0px auto;
+    display: flex;
+}
+
+.box_aprendizado {
+    width: 33%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+
+.aprendizado_logo {
+    font-size: 5em;
+}
+
+.aprendizado_titulo {
+    font-size: 2.5em;
+}
+
+.aprendizado_descricao {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+/* =============================================================================================================== */
+
+/* Conf Ferramentas */
+
+.wrapper_ferramentas {
+    background-color: #FF6C0C;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px;
+}
+
+.box_ferramentas {
+    background: #fff;
+    width: 60vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+    position: relative;
+    transition: 1s all;
+}
+
+.box_ferramentas:hover {
+    transform: translateY(-7%);
+    box-shadow: 4px 4px 0px 4px rgba(0, 0, 0, 0.2)
+}
+
+.box_ferramentas img {
+    margin-bottom: 20px;
+}
+
+.box_ferramentas h1 {
+    color: #FF6C0C;
+    margin-bottom: 20px;
+}
+
+.box_ferramentas p {
+
+}
+
+.box_ferramentas button {
+    width: 130px;
+    height: 35px;
+    border: 1px solid #FF6C0C;
+    color: #FF6C0C;
+    font-size: 1em;
+    font-weight: bolder;
+    background: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+
+.box_ferramentas button:hover {
+    background-color: #FF6C0C;
+    color: #fff;
+}
+
+/* =============================================================================================================== */
+
+/* Conf footer */
+
+footer {
+    height: 300px;
+    background-image: url(../img/footer_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+.filter {
+    background-color: #001E60;
+    height: 100%;
+    filter: opacity(50%);
+}
+
+.wrapper_logo_footer {
+    z-index: 100;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    padding: 50px;
+}
+
+.wrapper_logo_footer a p {
+    color: #fff;
+}
+
+.logo_footer {
+    color: #fff;
+}
+
+.footer_desc {
+    width: 20vw;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
