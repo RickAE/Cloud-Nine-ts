@@ -268,20 +268,20 @@ footer {
 /* Conf cloud9 */
 
 /* Conf banner school */
-.banner_school {
+.banner_geral {
     background: url(../img/school_banner.jpg);
     background-size: cover;
     height: 80vh;
 
 }
 
-.banner_school div {
+.banner_geral div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.banner_school div h1{
+.banner_geral div h1{
     color: #fff;
     filter: opacity(200%);
     font-size: 5em;
@@ -305,3 +305,35 @@ footer {
 .paragrafo_school {
     margin-bottom: 20px;
 }
+
+
+.cursos_img {
+    background-image: url(../img/cursos_bg.jpg);
+}
+
+.wrapper_cursos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 50px 0px;
+}
+
+.box_cursos {
+    width: 25%;
+    border: 1px solid #FF6C0C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    color: #FF6C0C;
+}
+
+.curso_icon {
+    width: 200px;
+}
+
+.alunos_img {
+    background-image: url(../img/alunos_bg.jpg);
+}
+
