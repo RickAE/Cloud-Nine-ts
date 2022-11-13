@@ -389,7 +389,7 @@ footer {
 }
 
 .icon_aluno {
-    width: 340px;
+    width: 240px;
 }
 
 /* Media Query */
@@ -397,6 +397,10 @@ footer {
 @media (max-width: 1130px) {
     .wrapper_aprendizado {
         flex-direction: column;
+    }
+
+    .box_aprendizado {
+        margin-bottom: 20px;
     }
 
 }
@@ -499,5 +503,26 @@ footer {
         height: 2px;
         background: currentColor;
         margin-top: 5px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .wrapper_alunos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box_aluno {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 700px) {
+    .icon_aluno {
+        width: 120px;
+    }
+
+    .fala_aluno {
+        font-size: 0.8em;
     }
 }
