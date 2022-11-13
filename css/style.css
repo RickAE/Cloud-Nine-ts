@@ -411,7 +411,11 @@ footer {
 
     .box_ferramentas {
         margin-bottom: 40px;
-        width: 290px;
+        width: 240px;
+    }
+
+    .box_ferramentas button {
+        bottom: 10px;
     }
 }
 
