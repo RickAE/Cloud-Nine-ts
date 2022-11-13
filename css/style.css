@@ -174,20 +174,6 @@ body {
     transition: 0.3s all;
 }
 
-.aprendizado_logo:hover {
-    font-size: 5.5em;
-    cursor: pointer;
-}
-
-.aprendizado_titulo:hover {
-    font-size: 3em;
-    cursor: pointer;
-}
-
-.aprendizado_descricao:hover {
-    font-size: 1.7em;
-    cursor: pointer;
-}
 
 /* =============================================================================================================== */
 
