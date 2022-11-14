@@ -411,11 +411,29 @@ footer {
 
     .box_ferramentas {
         margin-bottom: 40px;
-        width: 240px;
+        width: 290px;
+        height: 500px;
     }
 
     .box_ferramentas button {
         bottom: 10px;
+    }
+
+    .box_ferramentas p {
+        width: 230px;
+    }
+
+    .box_aprendizado {
+        width: 250px;
+    }
+
+    .aprendizado_titulo {
+        font-size: 2em;
+    }
+
+    .aprendizado_descricao {
+        font-size: 1.4em;
+        width: 230px;
     }
 }
 
@@ -515,5 +533,11 @@ footer {
 
     .fala_aluno {
         font-size: 0.8em;
+    }
+}
+
+@media(max-width: 740px) {
+    .wrapper_cursos {
+        flex-direction: column;
     }
 }
