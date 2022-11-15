@@ -368,6 +368,11 @@ footer {
     padding: 30px;
 }
 
+.titulo_fala_aluno {
+    margin: 20px auto; 
+    color: #001E60;
+}
+
 .fala_aluno {
     width: 240px;
     font-size: 1.3em;
@@ -376,6 +381,11 @@ footer {
 
 .icon_aluno {
     width: 240px;
+}
+
+.aspas {
+    color: #FF6C0C;
+    font-size: 1.3em;
 }
 
 /* Media Query */
@@ -523,6 +533,11 @@ footer {
 
     .box_aluno {
         margin-bottom: 20px;
+        width: 210px;
+    }
+
+    .fala_aluno {
+        width: 235px;
     }
 }
 
@@ -539,5 +554,11 @@ footer {
 @media(max-width: 740px) {
     .wrapper_cursos {
         flex-direction: column;
+    }
+}
+
+@media(max-width: 523px) {
+    .titulo_fala_aluno {
+        margin-left: 40px;
     }
 }
